@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Raw event logs (504 MB / 100 MB+, download separately — see README)
+*.xes
+!.gitkeep
+
+# Derived data — regenerate with src/extract_pos.py
+data/processed/purchase_orders.jsonl
+
+# Batch API request/result shards
+outputs/all_3000_batch_requests_frozen_v2_2/
+outputs/all_3000_batch_results_frozen_v2_2/
+outputs/all_3000_batch_requests_frozen_v2_2.jsonl
+
+# Rendered report page images — keep the docx/pdf, not the screenshots
+docs/_rendered_final_report/
+docs/_rendered_final_report_v2/
+docs/_rendered_final_report_v3/
+
+# Secrets
+.env
+*.key

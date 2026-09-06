@@ -1,0 +1,6 @@
+﻿rule_decision,agent_decision,count,share_of_3000
+further_investigation,further_investigation,665,0.22166666666666668
+further_investigation,insufficient_evidence,109,0.036333333333333336
+further_investigation,no_further_investigation,11,0.0036666666666666666
+no_further_investigation,insufficient_evidence,252,0.084
+no_further_investigation,no_further_investigation,1963,0.6543333333333333

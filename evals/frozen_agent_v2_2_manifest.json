@@ -1,0 +1,12 @@
+{
+  "version": "V2.2",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "reasoning_effort": "low",
+  "source_sha256": {
+    "src/agent_baseline_v2.py": "33FB8B23FF977E557ABCAF68362018A53F7D9BA93E67C8EDB76EE611B55BEF92",
+    "src/po_summary_v2.py": "8FFD915150B67D08136D75480922B31831AE6513988E90B125EDF3BEAF77FF2F",
+    "src/agent_baseline_frozen_v1.py": "59C3C1145306A0E83004C9D00BDC8CE24CF588E183BFBADF05F5FA2ADDFD8DEF"
+  },
+  "regression_result": "evals/agent_predictions_error_cases_v2_2.jsonl",
+  "regression_result_sha256": "8AB9F58EBCB73EE0B4A004784F32580BEBAEF730CB66DD9F8F1A4C96A6F41C10"
+}

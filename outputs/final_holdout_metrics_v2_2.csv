@@ -1,0 +1,5 @@
+﻿metric,rule,agent
+decision_accuracy_on_9_adjudicated_disagreements,0.2222222222222222,0.7777777777777778
+primary_finding_accuracy_on_9_adjudicated_disagreements,,0.7777777777777778
+focus_items_accuracy_on_9_adjudicated_disagreements,,1.0
+exact_relative_accuracy_advantage_on_all_47,0,0.10638297872340426

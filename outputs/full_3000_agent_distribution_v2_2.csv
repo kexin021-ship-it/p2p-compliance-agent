@@ -1,0 +1,6 @@
+﻿system,decision,count,share
+agent,further_investigation,665,0.22166666666666668
+agent,insufficient_evidence,361,0.12033333333333333
+agent,no_further_investigation,1974,0.658
+rule,further_investigation,785,0.26166666666666666
+rule,no_further_investigation,2215,0.7383333333333333

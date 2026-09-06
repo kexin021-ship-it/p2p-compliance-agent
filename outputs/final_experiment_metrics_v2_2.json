@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-06T08:38:57.015510+00:00",
+  "frozen_agent_fingerprint": "6D016275F48316DF74CDCB2A3336D94DEFEA7FC43B74B479000AFD2678B3DC6B",
+  "prediction_sha256": "2D2D85D72D0EA45F1CD495406E87B1556FD7F61A7C028774AAFEDF6079B38584",
+  "full_3000": {
+    "po_count": 3000,
+    "agent_decision_counts": {
+      "further_investigation": 665,
+      "insufficient_evidence": 361,
+      "no_further_investigation": 1974
+    },
+    "rule_decision_counts": {
+      "further_investigation": 785,
+      "no_further_investigation": 2215
+    },
+    "agreement_count": 2628,
+    "disagreement_count": 372,
+    "agreement_rate": 0.876,
+    "cross_tab": {
+      "further_investigation -> further_investigation": 665,
+      "further_investigation -> insufficient_evidence": 109,
+      "further_investigation -> no_further_investigation": 11,
+      "no_further_investigation -> insufficient_evidence": 252,
+      "no_further_investigation -> no_further_investigation": 1963
+    },
+    "top_primary_findings": [
+      [
+        "process_appears_resolved",
+        1974
+      ],
+      [
+        "process_state_uncertain",
+        360
+      ],
+      [
+        "invoice_receipt_without_clear_observed",
+        335
+      ],
+      [
+        "required_invoice_receipt_not_observed",
+        175
+      ],
+      [
+        "required_gr_not_observed",
+        55
+      ],
+      [
+        "vendor_invoice_before_po_creation_observed",
+        51
+      ],
+      [
+        "latest_invoice_receipt_without_later_clear",
+        19
+      ],
+      [
+        "post_clear_invoice_reversal_observed",
+        19
+      ],
+      [
+        "reversal_without_original_event_observed",
+        7
+      ],
+      [
+        "clear_without_prior_invoice_observed",
+        5
+      ]
+    ]
+  },
+  "final_holdout_47": {
+    "total_cases": 47,
+    "agreement_cases_unreviewed": 38,
+    "disagreement_cases_reviewed": 9,
+    "rule_correct_on_disagreements": 2,
+    "agent_correct_on_disagreements": 7,
+    "agent_primary_finding_correct_on_disagreements": 7,
+    "agent_focus_items_correct_on_disagreements": 9,
+    "rule_disagreement_accuracy": 0.2222222222222222,
+    "agent_disagreement_accuracy": 0.7777777777777778,
+    "agent_primary_finding_accuracy": 0.7777777777777778,
+    "agent_focus_items_accuracy": 1.0,
+    "agent_net_correct_advantage_cases": 5,
+    "agent_accuracy_advantage_on_47": 0.10638297872340426,
+    "absolute_accuracy_available": false
+  },
+  "usage_and_cost": {
+    "input_tokens": 12376570,
+    "output_tokens": 1981847,
+    "total_tokens": 14358417,
+    "cached_input_tokens": 8219904,
+    "uncached_input_tokens": 4156666,
+    "estimated_batch_cost_usd": 12.6523,
+    "price_as_of": "2026-09-06",
+    "price_source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+  },
+  "interpretation_limits": [
+    "全量3000例没有逐例人工标签，一致率不能解释为准确率。",
+    "最终留出集中38个共同预测未人工复核，绝对准确率不可得。",
+    "9个已裁决分歧案例可确定相对正确数量差，但样本量较小。",
+    "开发集和初始盲测案例参与过V2.2调优，不作为最终无偏测试。"
+  ]
+}

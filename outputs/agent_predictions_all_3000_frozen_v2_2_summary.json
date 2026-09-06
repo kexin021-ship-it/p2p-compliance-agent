@@ -1,0 +1,34 @@
+{
+  "experiment": "frozen_v2_2_all_3000",
+  "completed_at": "2026-09-06T08:38:57.015510+00:00",
+  "po_count": 3000,
+  "version": "V2.2",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "reasoning_effort": "low",
+  "frozen_agent_fingerprint": "6D016275F48316DF74CDCB2A3336D94DEFEA7FC43B74B479000AFD2678B3DC6B",
+  "batch_ids": [
+    "batch_6a9cfd848da08190ac8fe0dae34b4eb4",
+    "batch_6a9d0a435e6881909d44ade5703f9657",
+    "batch_6a9d0f5a93a88190a5656df23a40a3c1",
+    "batch_6a9d12c104808190b88f4083a010877d",
+    "batch_6a9d1c8a0fd08190acb6ade83f289dc9"
+  ],
+  "po_data_sha256": "F66F341972B082E020B31C6734CF3738298B8C5E8482A7212716292D02E20BE5",
+  "rule_results_sha256": "1929E3B1241B24D81F474E0B84EB73C246951783E5AEFE060517E0E7EBCBD517",
+  "request_set_sha256": "2F2E35CB00F8C2D0ABD7D4E241D69F0773595D31A69799993EFF113CFCC74A40",
+  "prediction_sha256": "2D2D85D72D0EA45F1CD495406E87B1556FD7F61A7C028774AAFEDF6079B38584",
+  "agent_decision_counts": {
+    "further_investigation": 665,
+    "insufficient_evidence": 361,
+    "no_further_investigation": 1974
+  },
+  "agent_rule_agreement_count": 2628,
+  "agent_rule_disagreement_count": 372,
+  "agent_rule_agreement_rate": 0.876,
+  "usage": {
+    "input_tokens": 12376570,
+    "output_tokens": 1981847,
+    "total_tokens": 14358417
+  },
+  "interpretation_limit": "全量结果可用于描述分布和规则/Agent一致性；没有人工标签的 PO 不能用于计算绝对准确率。"
+}

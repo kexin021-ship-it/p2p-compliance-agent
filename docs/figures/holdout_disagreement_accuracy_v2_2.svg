@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="500" viewBox="0 0 920 500">
+<rect width="100%" height="100%" fill="#FAFAF7"/>
+<text x="40" y="48" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#202421">Accuracy on 9 adjudicated holdout disagreements</text>
+<text x="40" y="78" font-family="Arial, sans-serif" font-size="15" fill="#5A625D">Independent frozen holdout; n=9 disagreements within 47 total cases</text>
+<text x="40" y="145" font-family="Arial, sans-serif" font-size="17" fill="#202421">Rule baseline</text>
+<rect x="250" y="115" width="600" height="42" rx="8" fill="#E8EAE6"/>
+<rect x="250" y="115" width="133.3" height="42" rx="8" fill="#75808A"/>
+<text x="395.3" y="144" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#202421">22.2%</text>
+<text x="40" y="237" font-family="Arial, sans-serif" font-size="17" fill="#202421">Frozen V2.2 Agent</text>
+<rect x="250" y="207" width="600" height="42" rx="8" fill="#E8EAE6"/>
+<rect x="250" y="207" width="466.7" height="42" rx="8" fill="#3F7CAC"/>
+<text x="728.7" y="236" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#202421">77.8%</text>
+</svg>
