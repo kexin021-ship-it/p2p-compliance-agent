@@ -13,7 +13,7 @@ effective sample size of 1 and has been retracted.
 - Dataset: [BPI Challenge 2019](https://data.4tu.nl/articles/dataset/BPI_Challenge_2019/12715853) — 1.6M events, 251,734 PO line items, a multinational coatings company
 - Model: `gpt-5.4-mini`, `reasoning_effort=low`, frozen prompt + SHA256 fingerprint
 - Scale: 3,000 POs (seed-42 random sample), 14.4M tokens, **$12.65 total / $0.004 per PO**, 0 failed requests
-- Full write-up: [`docs/`](docs/) (report, v2.3 revised)
+- Full write-up: [**Final experiment report v2.3**](docs/final_experiment_report_v2_3_en.md)
 
 ---
 
@@ -97,7 +97,7 @@ prompt compliance, not judgment. And because the ground truth for all 7 was
 `insufficient_evidence`, a two-class rule baseline was structurally incapable of scoring
 on them.
 
-The claim is retracted in [`docs/`](docs/) §6. The distribution and agreement statistics
+The claim is retracted in [report §6](docs/final_experiment_report_v2_3_en.md#6-frozen-holdout-comparison--conclusion-retracted). The distribution and agreement statistics
 in §5 are unaffected.
 
 ---
@@ -147,7 +147,8 @@ src/                    rule engine, agent, batch runner, scoring
 evals/                  labels, blind-labelling rubric + sampler, frozen manifest
 outputs/                predictions, crosstabs, metrics, disagreement lists
 data/processed/         purchase_orders.jsonl (derived from the XES log)
-docs/                   final report + figures
+docs/                   final report (EN), figures
+  archive/                superseded Chinese versions, kept for traceability
 ```
 
 ## Reproducing
