@@ -40,6 +40,8 @@ instructed to check the events independently.
 | Rule baseline | 785 (26.2%) | — | 2,215 (73.8%) |
 | Agent | 665 (22.2%) | 361 (12.0%) | 1,974 (65.8%) |
 
+![Agent decision distribution across 3,000 purchase orders](docs/figures/full_3000_agent_distribution_v2_2.png)
+
 Agreement: 87.6% (2,628 / 3,000). Where they disagree:
 
 | Rule | Agent | POs |
@@ -47,6 +49,8 @@ Agreement: 87.6% (2,628 / 3,000). Where they disagree:
 | Investigate | Insufficient evidence | 109 |
 | Investigate | No investigation | **11** |
 | No investigation | Insufficient evidence | 252 |
+
+![Breakdown of the 372 rule-agent disagreements](docs/figures/full_3000_disagreement_breakdown_v2_2.png)
 
 ### Finding 1 — workload went up, not down
 
