@@ -52,6 +52,11 @@ Agreement: 87.6% (2,628 / 3,000). Where they disagree:
 
 ![Breakdown of the 372 rule-agent disagreements](docs/figures/full_3000_disagreement_breakdown_v2_2.png)
 
+> The subtitle in this figure reflects the original reading and is left uncorrected for
+> traceability. See Finding 2: 251 of the 252 "no investigation → insufficient evidence"
+> cases are consignment orders — a single structural category, not case-by-case
+> uncertainty.
+
 ### Finding 1 — workload went up, not down
 
 `insufficient_evidence` is not "ignore this." It means a human still has to look.
